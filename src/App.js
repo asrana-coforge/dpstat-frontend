@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import { CategoryPage, FilePage } from './components';
+import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import jsonData from "./data/data.json";
+
+const generateRoutes = (data, path = "") => {
+  const routes = [];
+  Object.keys(data).forEach((key) => {
+    const newPath = `${path}/${key}`;
+    console.log({newPath}); 
+    if (typeof data[key] === "object") {
+
+      routes.push(
+        <Route key={newPath} path={newPath} element={<FilePage data={data[key]} />} />
+      );
+      routes.push(...generateRoutes(data[key], newPath));
+    } else {
+      routes.push(
+        <Route
+          key={newPath}
+          path={newPath}
+          element={<div>{data[key]}</div>}
+        />
+      );
+    }
+  });
+  return routes;
+};
+
+const App = () => (
+  <Router>
+    <Routes>
+      <Route path="/" element={<CategoryPage data={jsonData}/>} />
+      {generateRoutes(jsonData)}
+    </Routes>
+  </Router>
+);
 
 export default App;

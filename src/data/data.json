@@ -1,0 +1,90 @@
+{
+    "DP_Searches": {
+      "2024-10": {
+        "2024-10-09": {
+          "SS.01Oct.csv": "DP_Searches/2024-10/2024-10-09/",
+          "SS.02Oct.csv": "DP_Searches/2024-10/2024-10-09/",
+          "SS.03Oct.csv": "DP_Searches/2024-10/2024-10-09/",
+          "SS.04Oct.csv": "DP_Searches/2024-10/2024-10-09/",
+          "SS.05Oct.csv": "DP_Searches/2024-10/2024-10-09/",
+          "SS.06Oct.csv": "DP_Searches/2024-10/2024-10-09/",
+          "SS.07Oct.csv": "DP_Searches/2024-10/2024-10-09/",
+          "SS.08Oct.csv": "DP_Searches/2024-10/2024-10-09/",
+          "SS.09Oct.csv": "DP_Searches/2024-10/2024-10-09/",
+          "SS.10Oct.csv": "DP_Searches/2024-10/2024-10-09/",
+          "SS.11Oct.csv": "DP_Searches/2024-10/2024-10-09/",
+          "SS.12Oct.csv": "DP_Searches/2024-10/2024-10-09/"
+        },
+        "2024-10-07": {
+          "SS.07Oct.csv": "DP_Searches/2024-10/2024-10-07/",
+          "SS.06Oct.csv": "DP_Searches/2024-10/2024-10-07/"
+        },
+        "2024-10-08": {
+          "SS.07Oct.csv": "DP_Searches/2024-10/2024-10-08/",
+          "SS.08Oct.csv": "DP_Searches/2024-10/2024-10-08/"
+        }
+      },
+      "2024-11": {
+        "2024-11-09": {
+          "SS.09Oct.csv": "DP_Searches/2024-10/2024-10-09/",
+          "SS.08Oct.csv": "DP_Searches/2024-10/2024-10-09/"
+        },
+        "2024-11-07": {
+          "SS.07Oct.csv": "DP_Searches/2024-10/2024-10-07/",
+          "SS.06Oct.csv": "DP_Searches/2024-10/2024-10-07/"
+        },
+        "2024-11-08": {
+          "SS.07Oct.csv": "DP_Searches/2024-10/2024-10-08/",
+          "SS.08Oct.csv": "DP_Searches/2024-10/2024-10-08/"
+        }
+      }
+    },
+    "DP_Hotels": {
+      "2024-10": {
+        "2024-10-09": {
+          "SS.09Oct.csv": "DP_Hotels/2024-10/2024-10-09/",
+          "SS.08Oct.csv": "DP_Hotels/2024-10/2024-10-09/"
+        },
+        "SS.07Oct.csv": "DP_Hotels/2024-10/2024-10-08/",
+        "SS.08Oct.csv": "DP_Hotels/2024-10/2024-10-08/",
+        
+        "2024-10-08": {
+          "SS.07Oct.csv": "DP_Hotels/2024-10/2024-10-08/",
+          "SS.08Oct.csv": "DP_Hotels/2024-10/2024-10-08/"
+        }
+      },
+      "2024-11": {
+        "2024-11-09": {
+          "SS.09Oct.csv": "DP_Hotels/2024-10/2024-10-09/",
+          "SS.08Oct.csv": "DP_Hotels/2024-10/2024-10-09/"
+        },
+        "2024-11-07": {
+          "SS.07Oct.csv": "DP_Hotels/2024-10/2024-10-07/",
+          "SS.06Oct.csv": "DP_Hotels/2024-10/2024-10-07/"
+        }
+      }
+    },
+    "DP_Flights": {
+      "2024-10": {
+        "2024-10-09": {
+          "SS.09Oct.csv": "DP_Flights/2024-10/2024-10-09/",
+          "SS.08Oct.csv": "DP_Flights/2024-10/2024-10-09/"
+        },
+        "2024-10-08": {
+          "SS.07Oct.csv": "DP_Flights/2024-10/2024-10-08/",
+          "SS.08Oct.csv": "DP_Flights/2024-10/2024-10-08/"
+        }
+      },
+      "2024-11": {
+        "2024-11-09": {
+          "SS.09Oct.csv": "DP_Flights/2024-10/2024-10-09/",
+          "SS.08Oct.csv": "DP_Flights/2024-10/2024-10-09/"
+        },
+        "2024-11-07": {
+          "SS.07Oct.csv": "DP_Flights/2024-10/2024-10-07/",
+          "SS.06Oct.csv": "DP_Flights/2024-10/2024-10-07/"
+        }
+      }
+    }
+}
+  
